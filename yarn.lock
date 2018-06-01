@@ -1270,16 +1270,7 @@ ejs@^2.3.4:
   version "2.5.8"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.5.8.tgz#2ab6954619f225e6193b7ac5f7c39c48fefe4380"
 
-elliptic@^5.1.0:
-  version "5.2.1"
-  resolved "http://registry.npmjs.org/elliptic/-/elliptic-5.2.1.tgz#fa294b6563c6ddbc9ba3dc8594687ae840858f10"
-  dependencies:
-    bn.js "^3.1.1"
-    brorand "^1.0.1"
-    hash.js "^1.0.0"
-    inherits "^2.0.1"
-
-elliptic@^6.0.0:
+elliptic@^6.0.0, elliptic@^6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.4.0.tgz#cac9af8762c85836187003c8dfe193e5e2eae5df"
   dependencies:
@@ -4153,14 +4144,14 @@ ripple-hashes@^0.3.1:
     ripple-address-codec "^2.0.1"
     ripple-binary-codec "^0.1.0"
 
-ripple-keypairs@^0.10.1:
+"ripple-keypairs@git://github.com/Airbitz/ripple-keypairs.git#770449c":
   version "0.10.1"
-  resolved "https://registry.yarnpkg.com/ripple-keypairs/-/ripple-keypairs-0.10.1.tgz#ef796b519bb202682515e7cdd6063762636943e6"
+  resolved "git://github.com/Airbitz/ripple-keypairs.git#770449c955b26fcd00951874ca6149c20b377d0a"
   dependencies:
     babel-runtime "^5.8.20"
     bn.js "^3.1.1"
     brorand "^1.0.5"
-    elliptic "^5.1.0"
+    elliptic "^6.4.0"
     hash.js "^1.0.3"
     ripple-address-codec "^2.0.1"
 
