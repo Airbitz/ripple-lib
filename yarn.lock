@@ -4144,9 +4144,9 @@ ripple-hashes@^0.3.1:
     ripple-address-codec "^2.0.1"
     ripple-binary-codec "^0.1.0"
 
-"ripple-keypairs@git://github.com/Airbitz/ripple-keypairs.git#770449c":
+"ripple-keypairs@git://github.com/Airbitz/ripple-keypairs.git#59ed87d":
   version "0.10.1"
-  resolved "git://github.com/Airbitz/ripple-keypairs.git#770449c955b26fcd00951874ca6149c20b377d0a"
+  resolved "git://github.com/Airbitz/ripple-keypairs.git#59ed87dad7061681dd01ff88a928cc39d3f0852b"
   dependencies:
     babel-runtime "^5.8.20"
     bn.js "^3.1.1"
