@@ -1,5 +1,5 @@
 import * as utils from './utils'
-import keypairs = require('ripple-keypairs')
+import keypairs = require('edge-ripple-keypairs')
 import binary = require('ripple-binary-codec')
 import {computeBinaryTransactionHash} from 'ripple-hashes'
 import {SignOptions, KeyPair} from './types'

@@ -1,5 +1,5 @@
 import * as common from '../common'
-import keypairs = require('ripple-keypairs')
+import keypairs = require('edge-ripple-keypairs')
 import binary = require('ripple-binary-codec')
 const {validate, xrpToDrops} = common
 

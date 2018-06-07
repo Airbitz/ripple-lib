@@ -1266,6 +1266,17 @@ ecstatic@~0.7.0:
     minimist "^1.1.0"
     url-join "0.0.1"
 
+edge-ripple-keypairs@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/edge-ripple-keypairs/-/edge-ripple-keypairs-0.0.1.tgz#734f39733132a11098a70b93c58f27740e15740c"
+  dependencies:
+    babel-runtime "^5.8.20"
+    bn.js "^3.1.1"
+    brorand "^1.0.5"
+    elliptic "^6.4.0"
+    hash.js "^1.0.3"
+    ripple-address-codec "^2.0.1"
+
 ejs@^2.3.4:
   version "2.5.8"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.5.8.tgz#2ab6954619f225e6193b7ac5f7c39c48fefe4380"
@@ -4143,17 +4154,6 @@ ripple-hashes@^0.3.1:
     create-hash "^1.1.2"
     ripple-address-codec "^2.0.1"
     ripple-binary-codec "^0.1.0"
-
-"ripple-keypairs@git://github.com/Airbitz/ripple-keypairs.git#59ed87d":
-  version "0.10.1"
-  resolved "git://github.com/Airbitz/ripple-keypairs.git#59ed87dad7061681dd01ff88a928cc39d3f0852b"
-  dependencies:
-    babel-runtime "^5.8.20"
-    bn.js "^3.1.1"
-    brorand "^1.0.5"
-    elliptic "^6.4.0"
-    hash.js "^1.0.3"
-    ripple-address-codec "^2.0.1"
 
 ripple-lib-transactionparser@^0.6.2:
   version "0.6.2"

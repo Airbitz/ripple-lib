@@ -1,4 +1,4 @@
-import keypairs = require('ripple-keypairs')
+import keypairs = require('edge-ripple-keypairs')
 import binary = require('ripple-binary-codec')
 import {validate, xrpToDrops} from '../common'
 
