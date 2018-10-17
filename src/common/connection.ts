@@ -134,7 +134,9 @@ class Connection extends EventEmitter {
       this._onOpenErrorBound = null
     }
     // just in case
-    this._ws!.removeAllListeners('open')
+    if (this._ws && this._ws.removeAllListeners) {
+      this._ws!.removeAllListeners('open')
+    }
     this._ws = null
     this._isReady = false
     if (beforeOpen) {
